@@ -1,0 +1,72 @@
+.title_ctv
+{
+	height: 50px;
+	width: 100%;
+	background-color: #337AB7;
+	margin-bottom: 20px;
+}
+.title_ctv h3{
+	color: #fff;
+	font-size: 32;
+	line-height: 14px;
+}
+.input_tieude{}
+.input_tomtat{
+	height: 100px;
+}
+textarea.form-control {
+    height: 200px;
+}
+.menu_post{
+	height: 800px;
+	overflow: auto;
+}
+.menu_title{
+	background-color: #337AB7;
+	height:50px;
+}
+.menu_title h4{
+	color: #fff;
+	line-height:  50px;
+	margin-top: 0px;
+	text-align: center;
+}
+.menu_content ul{
+	list-style: none;
+	margin-top: 20px;
+}
+.menu_content ul li{
+	height: 80px;
+	position: relative;
+    width: 253px;
+    right: 39px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-bottom: 20px;
+    display: inline-table;
+}
+.image_new{
+	position: relative;
+	width: 30%;
+	height: auto;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	float: left;
+}
+.image_new img{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.title_new{
+	position: relative;
+	width: 65%;
+	float: right;
+}

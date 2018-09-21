@@ -1,0 +1,45 @@
+footer{
+	background-color: #222;
+	margin-top: 30px;
+}
+.social{
+/*	height: 80px;*/
+}
+.social_content .title{
+	height: 100%;
+}
+.social_content .title p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 80px;
+	
+}
+.social_content .social_icon{
+	height: 100%;	
+}
+.social_content .social_icon a{
+	line-height: 80px;
+	font-size: 20px;
+	margin-left: 30px;
+	float: right;
+	color: #fff;
+}
+.social_content .social_icon a:hover{
+	color: #337AB7;
+}
+.place_arena h4{
+	color: #fff;
+}
+.place_arena p{
+	color: #bbb7b7;
+}
+.contact_arena h4{
+	color: #fff;
+}
+.contact_arena p{
+	color: #bbb7b7;
+}
+.fanpage p{
+	color: #fff;
+	margin-top: 20px;
+}

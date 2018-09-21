@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Chỉnh sửa tin tức</title>
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <div class="card card-register mx-auto mt-5">
+      <div class="card-body">
+      <div class="card-header form-card" style="margin-bottom: 10px;">
+        <i class="fa fa-table"></i>
+        Chỉnh sửa tin tức
+      </div>
+        <form>
+          <div class="form-group">
+            <label>Chọn loại tin cho tin</label>
+            <select class="form-control">
+                <option>Loại Tin 1</option>
+                <option>Loại Tin 2</option>
+                <option>Loại Tin 3</option>
+                <option>Loại Tin 4</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Tiêu Đề</label>
+            <input class="form-control" type="text" placeholder="Tiêu Đề">
+          </div>
+          <div class="form-group">
+            <label>Tóm Tắt</label>
+            <input class="form-control" type="text" placeholder="Tóm Tắt">
+          </div>
+          <div class="form-group">
+            <label>Tải Ảnh Cho Tin</label>
+            <input class="form-control" type="file" placeholder="Ảnh Cho Tin">
+          </div>
+          <div class="form-group">
+            <label>Nội Dung</label>
+            <textarea class="form-control" id="textcontent"></textarea>
+          </div>     
+          <button type="submit" class="btn btn-primary" style="width: 100%">Tạo Mới</button>
+        </form>
+    </div>
+        
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+   <script src='https://cloud.tinymce.com/stable/tinymce.min.js'></script>
+  <script>
+      tinymce.init({
+        selector: 'textarea',  // change this value according to your HTML
+        plugins : 'advlist lists charmap print preview'
+      });
+  </script>
+</body>
+
+</html>
